@@ -1,0 +1,55 @@
+body 
+{
+    background-color: red;
+    color: white;
+    font-family: cursive;
+}
+nav
+{
+    border: 10px dashed green;
+    border-radius: 5px;
+}
+
+ul 
+{
+    background-color: blue;
+}
+a 
+{
+    color: white;
+}
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column-reverse;
+}
+article 
+{
+    width:75%;
+    background-color: palegreen;
+    // float: left;
+}
+aside 
+{
+    width:25%;
+    background-color: powderblue;
+    // float: left;
+}
+section
+{
+    width: 100%;
+    background-color: rosybrown;
+}
+header
+{
+    display: flex;
+}
+// footer
+// {
+//     clear: both;
+// }
+// section
+// {
+//     clear: both;
+// }
