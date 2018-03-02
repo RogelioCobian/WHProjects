@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: aqua;
+}
+
+section {
+  height: 600px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+
+div {
+  flex: 1;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

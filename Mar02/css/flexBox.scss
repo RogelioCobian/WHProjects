@@ -1,0 +1,31 @@
+html 
+{
+    background-color: slategray;
+}
+
+section
+{
+    display: flex;
+    background-color: slateblue;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    // flex-direction: row-reverse;
+    height: 600px;
+}
+
+div
+{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    margin: 5px;
+}
+
+div:nth-child(4)
+{
+    align-self: flex-start;
+    background-color: aqua;
+}
+div:nth-child(3){order:1;}

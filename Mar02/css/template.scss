@@ -1,0 +1,117 @@
+$keycolor:hsl(181, 100%, 41%);
+$whitetone:hsl(0, 0%, 96%);
+$black:hsl(0, 0%, 8%);
+
+body
+{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+header
+{
+    padding: 10vw 2vw;
+    background-color: $keycolor;
+    text-align: center;
+    color: $whitetone;
+}
+// LoVe HaTe links
+// Psuedo Class link
+a:link
+{
+    color: inherit;
+}
+
+a:visited
+{
+    color: lime;
+}
+
+// psuedo class hover
+a:hover
+{
+    color: red;
+}
+
+a:active
+{
+    color: purple;
+}
+a.button
+{
+    background-color: transparentize($black, .75);
+    color: $whitetone;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 200ms;
+    transform: rotate(0deg);
+}
+a.button:hover
+{
+    background-color: transparentize($black, .90);
+    transform: rotate(360deg);
+}
+a
+{
+    color: inherit;
+}
+ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+header div
+{
+    width: 35%;
+    padding: 5vw;
+    border-width: 3px 1px;
+    border-style: double solid;
+    border-color: $whitetone;
+    margin: 0 auto;
+}
+h1
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+h2
+{
+    font-weight: 200;
+    margin: 45px;
+}
+strong
+{
+    font-weight: 700;
+}
+#features
+{
+    text-align: center;
+}
+#features h2
+{
+    border-bottom: 3px double $black;
+    display: inline-block;
+}
+
+#features ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li
+    {
+        width: 25%;
+        padding: 40px;
+        border: 1px solid $black;
+        margin-left: -1px;
+        margin-top: -1px;
+        text-align: center;
+    }
+    i
+    {
+        font-size: 300%;
+        color: $keycolor;
+    }
+}
