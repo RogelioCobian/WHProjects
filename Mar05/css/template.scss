@@ -1,0 +1,124 @@
+$ignite: hsl(191, 58%, 42%);
+$classic: hsl(11, 58%, 42%);
+$black: hsl(204, 6%, 17%);
+$white:hsl(0, 0%, 96%);
+
+body 
+{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: $white;
+}
+h1
+{
+    margin: 0;
+}
+header
+{
+    display: flex;
+    overflow: hidden;
+    background-color: $black;
+    position: relative;
+    height: 200px;
+    // left: 50px;
+}
+
+.skew 
+{
+    width: 50vw;
+    // height: 200px;
+    transform: skew(-45deg);
+    transform-origin: left bottom; 
+}
+.logo
+{
+    flex: none;
+    // background-color: hsla(0, 50%, 35%, .9);
+    width: 200px;
+    height: 100%;
+    img
+    {
+        height: 50%;
+        // background-color: hsla(65, 50%, 50%, .9);
+    }
+}
+
+.ignite 
+{
+    // width: 200px;
+    background-color: $ignite;
+    
+}
+
+.classic
+{
+    // width: 200px;
+    background-color: $classic;
+    background-image: url('../img/index.svg');
+    background-size: 100px;
+    background-repeat: repeat-y;
+}
+.text 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+}
+.marquee
+{
+    margin-left: -75px;
+    display: flex;
+    align-items: center;
+    h1 
+    {
+        text-shadow: 0 0 30px transparentize(black, .5);
+    }
+}
+
+
+@media print 
+{
+    header
+    {
+        height: 500px;
+        font-size: 300%;
+    }
+    .skew 
+    {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait)
+{
+    .ignite
+    {
+        background-color: red; 
+    }
+    .classic 
+    {
+        background-color: blue;
+    }
+}
+
+
+
+@media screen and (max-width: 450px)
+{
+    h1 
+    {
+        font-size: 150%;
+        color: green;
+    }
+}
+
+@media screen and (max-width:672px)
+{
+    h1 
+    {
+        font-size: 75%;
+    }
+}
