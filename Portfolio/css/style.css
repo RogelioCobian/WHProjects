@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700,800,900");
+body {
+  font-family: Barlow;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  background-color: #9685e0;
+  color: #d8dbee;
+  text-align: center;
+  padding: 10vw 2vw;
+}
+
+div {
+  background-color: inherit;
+  font-weight: inherit;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+a.button {
+  background-color: rgba(20, 20, 20, 0.25);
+  color: whitesmoke;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: background-color 200ms;
+}
+
+a.button:hover {
+  background-color: rgba(20, 20, 20, 0.1);
+}
+
+#bio {
+  display: flex;
+}
+
+#profile {
+  height: 100px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.left {
+  margin: auto;
+  background-color: violet;
+  width: 38.195302843%;
+}
+
+.right {
+  width: 61.804697157%;
+  background-color: tomato;
+}
+/*# sourceMappingURL=style.css.map */
