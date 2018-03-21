@@ -1,0 +1,42 @@
+$black: hsla(0, 0%, 19%, 1);
+
+
+body 
+{
+    margin: 0;
+}
+button 
+{
+    border: 1px solid darken($black, 10);
+    padding: 10px;
+    border-radius: 4px; 
+    padding: 10px;
+    font-size: inherit;
+    &:hover 
+    {
+        background-color: lighten($black, 65);
+        cursor: pointer;
+    }
+}
+body 
+{
+    background-color: white;
+    transition: background-color 500ms;
+}
+body.colorize 
+{
+    background-color: $black; 
+    color: white;
+    nav
+    {
+        background-color: white; 
+        color: $black;
+    }
+}
+nav
+{
+    padding: 10px;
+    background-color: $black;
+    display: flex; 
+    justify-content: flex-end;
+}

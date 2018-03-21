@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+button {
+  border: 1px solid #171717;
+  padding: 10px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+
+body {
+  background-color: white;
+  transition: background-color 500ms;
+}
+
+body.colorize {
+  background-color: #303030;
+  color: white;
+}
+
+body.colorize nav {
+  background-color: white;
+  color: #303030;
+}
+
+nav {
+  padding: 10px;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+}
+/*# sourceMappingURL=style.css.map */
