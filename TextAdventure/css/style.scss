@@ -7,7 +7,7 @@ body
 }
 header 
 { 
-    height: 8vw;
+    height: 80px;
     background-color: cornflowerblue;
     text-align: center;
     padding: 3vw;
@@ -20,4 +20,14 @@ header h1
 main h2 
 {
     text-align: center;
+}
+main 
+{
+    text-align: center;
+}
+.game 
+{
+    margin: auto;
+    width: 30vw;
+    text-align: left;
 }
