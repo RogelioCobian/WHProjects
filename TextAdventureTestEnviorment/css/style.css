@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 3vw;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.game {
+  margin: auto;
+  width: 30vw;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */
