@@ -5,17 +5,20 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 section {
-  width: 50%;
+  border-bottom: 2px solid black;
+  width: 69.7vw;
+  background-color: gray;
 }
 
 form {
   text-align: center;
-  width: 50%;
-  background-color: aquamarine;
+  width: 30vw;
+  background-color: #095db1;
+  border-bottom: 2px solid black;
 }
 
 label {
@@ -25,14 +28,11 @@ label {
 }
 
 button {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
+  background-color: #09b1b1;
   color: white;
-  padding: 15px 32px;
+  padding: 5px 2px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 5px;
 }
