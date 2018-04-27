@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #aeaeae;
+  padding: 10px;
+}
+
+header input {
+  border: 1px solid #999;
+  padding: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+main li {
+  margin: 10px;
+  width: 33%;
+}
+
+main img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
