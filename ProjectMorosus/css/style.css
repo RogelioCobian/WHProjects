@@ -1,39 +1,12 @@
-body {
-  margin: 0;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-section {
-  border-bottom: 2px solid black;
-  width: 69.7vw;
-  background-color: gray;
-}
-
-form {
+header {
   text-align: center;
-  width: 30vw;
-  background-color: #095db1;
-  border-bottom: 2px solid black;
 }
 
-label {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+p {
+  margin-left: 35px;
 }
 
-button {
-  background-color: #09b1b1;
-  color: white;
-  padding: 5px 2px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 5px;
+input {
+  margin-left: 55px;
 }
 /*# sourceMappingURL=style.css.map */
