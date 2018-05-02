@@ -1,5 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 header {
   text-align: center;
+  background-color: lightgray;
+  padding: 9vw;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
 }
 
 p {
@@ -8,5 +26,25 @@ p {
 
 input {
   margin-left: 55px;
+}
+
+button {
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 20px;
+}
+
+.questions {
+  border-top: 0px;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  padding-left: 20px;
+}
+
+#bottomQ {
+  border-top: 0px;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
 }
 /*# sourceMappingURL=style.css.map */
